@@ -1,0 +1,18 @@
+﻿Project Overview: 
+Build a chat scraper for a youtube live stream and save the chat lot in an excel file 
+* Only on a live chat, not chat on recorded videos 
+* Chat scraper stops as soon as the live stream ends and then compiles and stores the data into the excel file
+Requirements: 
+* Scrape the live chat in real-time 
+* Collect data (username, timestamp, and message)
+* Save the data in Excel file 
+Tech Stack:
+* Python: has libraries used to scrap and process data (Beautiful Soup? Request? Scrapy? Pandas?)
+* Excel file
+Implementation:
+1. Figure out the libraries that need to be imported (help with scraping data)
+2. Connect to a Youtube Data API to collect live chat message 
+* The YouTube Data API allows you to interact with YouTube features. It enables you to access and manage YouTube resources, such as videos, channels, playlists, and live streams, using RESTful calls.
+3. Take the data what has been collected, process/parse through it 
+4. Then store it in a Excel file
+5. Make sure the data in the excel file is being saved stored correctly
